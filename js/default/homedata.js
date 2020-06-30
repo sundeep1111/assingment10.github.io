@@ -6,7 +6,7 @@ var databackarry = []
 renderCard = (data)=>{
    var mainRow = $('<div>').addClass('col-9 col-sm-6 col-md-4 col-lg-3 mb-3');
    mainRow.attr('id', data.id, );
-   var single_product_area =$('<div>').addClass('single-product-area mb-30');
+   var single_product_area =$('<div>').addClass('single-product-area mb-0');
    $(mainRow).append(single_product_area);
    var dropsw = $('<div>').addClass('dropsw')
    $(single_product_area).append(dropsw);
