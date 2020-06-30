@@ -4,7 +4,7 @@ var url = 'https://5ee248c68b27f30016094891.mockapi.io/homepagedata';
 var databackarry = []
 
 renderCard = (data)=>{
-   var mainRow = $('<div>').addClass('col-9 col-sm-6 col-md-4 col-lg-3 mb-3');
+   var mainRow = $('<div>').addClass('col-12 col-sm-6 col-md-4 col-lg-3 mb-3');
    mainRow.attr('id', data.id, );
    var single_product_area =$('<div>').addClass('single-product-area mb-0');
    $(mainRow).append(single_product_area);
