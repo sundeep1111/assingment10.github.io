@@ -375,14 +375,14 @@
     left: -340px;
     z-index: 9999;
     width: 320px;
-    height: 100%;
+/*     height: 100%; */
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
     padding: 0;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     display: block;
     overflow-x: hidden;
-    overflow-y: scroll;
+/*     overflow-y: scroll; */
 }
 .breakpoint-on .classynav ul li .dropdown,
 .breakpoint-on .classynav ul li .dropdown li .dropdown {
@@ -442,7 +442,7 @@
 }
 .breakpoint-on .classynav {
     padding-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
 }
 .breakpoint-on .classynav ul {
     -webkit-box-flex: 0;
