@@ -450,7 +450,7 @@ textarea:focus,
 
 
 /* Hero CSS */
-.single_slide {
+.single_slide { 
   position: relative;
   z-index: 1;
   background-position: center center;
