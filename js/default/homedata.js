@@ -10,7 +10,7 @@ renderCard = (data)=>{
    $(mainRow).append(single_product_area);
    var dropsw = $('<div>').addClass('dropsw')
    $(single_product_area).append(dropsw);
-   var product_image = $('<div>').addClass('product_image');
+   var product_image = $('<div>').addClass('product_image apparels_offer_area');
    $(dropsw).append(product_image);
    var link = $('<a>').addClass('normal_img').attr('href', "detail.html?source=" + data.id);
    $(product_image).append(link);
