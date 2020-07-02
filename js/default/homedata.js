@@ -15,9 +15,7 @@ renderCard = (data)=>{
    var link = $('<a>').addClass('normal_img').attr('href', "detail.html?source=" + data.id);
    $(product_image).append(link);
    var img = $('<img>').addClass('normal_img').attr('src', data.preview);
-   $(link).append(img);
-   var hrimg = $('<img>').addClass('hover_img').attr('src', data.preview);
-   $(link).append(hrimg);
+  $(link).append(hrimg);
    var product_description = $('<div>').addClass('product_description');
    $(dropsw).append(product_description);
    var h4 = $('<h4>').text(data.name)
