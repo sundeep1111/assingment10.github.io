@@ -4,6 +4,7 @@
 @import url(css/owl.carousel.min.css);
 @import url(css/font-awesome.min.css);
 @import url(css/default/icofont.min.css);
+@import url(css/animate.css);
 /* Preloader CSS */
 #preloader {
   position: fixed;
@@ -42,7 +43,7 @@ h4,
 h5,
 h6 {
   color: #070a57;
-  font-family: "Muli", sans-serif; }
+  font-family: 'Open Sans', sans-serif; }
 
 p {
   color: #747794;
@@ -450,7 +451,7 @@ textarea:focus,
 
 
 /* Hero CSS */
-.single_slide { 
+.single_slide {
   position: relative;
   z-index: 1;
   background-position: center center;
@@ -471,7 +472,7 @@ textarea:focus,
           letter-spacing: 2px; } }
     .single_slide .welcome_slide_text h2 {
       text-transform: capitalize;
-      font-size: 4rem;
+      font-size: 3rem;
       margin-bottom: 1rem;
       font-weight: 700; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -544,7 +545,7 @@ textarea:focus,
       top: 0;
       left: 0;
       z-index: -1;
-      /* background-color: #070a57; */
+      background-color: #070a57; 
       opacity: 0.5; }
     .welSlideTwo .single_slide p,
     .welSlideTwo .single_slide h2 {
@@ -670,7 +671,7 @@ textarea:focus,
     position: relative;
     z-index: 100;
     padding: 10px 15px;
-    text-align: left; }
+    text-align: left; border-top: 1px solid #005cff; }
     .single-product-area .product_description .brand_name {
       font-size: 12px;
       margin-bottom: 0.5rem;
@@ -704,13 +705,13 @@ textarea:focus,
       line-height: 35px;
       position: absolute;
       text-align: center;
-      width: 50%;
+      width: 100%;
       -webkit-transition-duration: 500ms;
       -o-transition-duration: 500ms;
       transition-duration: 500ms;
       z-index: 20;
       opacity: 0;
-      visibility: hidden; }
+      visibility: hidden;}
       @media only screen and (max-width: 767px) {
         .single-product-area .product_description .product_add_to_cart a i {
           display: none; } }
@@ -923,9 +924,9 @@ textarea:focus,
   position: relative;
   z-index: 1;
   overflow: hidden;
-  border-radius: 6px; }
+  }
   .apparels_offer_area img {
-    border-radius: 6px;
+   
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms; }
@@ -941,7 +942,7 @@ textarea:focus,
     color: #ffffff;
     font-weight: 400; }
   .apparels_offer_area span {
-    font-size: 30px; }
+    font-size: 14px; }
   .apparels_offer_area .btn {
     background-color: transparent;
     box-shadow: none;
@@ -1092,8 +1093,7 @@ textarea:focus,
   .dropsw{
     box-sizing: border-box;
     box-shadow: 0 2px 5px #ccc;
-    border-radius: 10px;
-  }
+   }
   .ptxt{
     margin: 0;
     margin-top: 12px;
@@ -1101,12 +1101,12 @@ textarea:focus,
     color: #009688;font-size: 14px;
   }
   .normal_img{
-    -webkit-border-top-left-radius: 10px;
+    /* -webkit-border-top-left-radius: 10px;
     -webkit-border-top-right-radius: 10px;
     -moz-border-radius-topleft: 10px;
     -moz-border-radius-topright: 10px;
     border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-right-radius: 10px;    border-bottom: 1px solid #005cff;*/ */ 
   }
   .hover_img{
     -webkit-border-top-left-radius: 10px;
@@ -1220,5 +1220,8 @@ box-shadow: 2px 11px 19px -8px rgba(0,0,0,0.75); border-radius: 10px;     border
     width: 100%;
     top: 100px;
           }
-#accessory{ font-size: 28px;}
+          #accessory{ font-size: 28px;}
           .best-selling-products-area h2{font-size: 28px;}
+          .owlimg{ width: 156px !important; height: 105px !important; margin: 0 auto !important;}
+          #accessories_men_women .posrel{ position: relative; top:-8px;}
+          .fontsz{ font-size: 16px !important;}
