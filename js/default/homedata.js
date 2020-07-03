@@ -46,7 +46,7 @@ renderCard = (data)=>{
    $(product_description).append(p);
    var product_add_to_cart = $('<div>').addClass('product_add_to_cart');
    var alinkcart =$('<a>').attr('href', "detail.html?source=" + data.id).text(' Add to Cart').addClass('fontsz');
-   alinkcart.text('Add to Cart');
+   alinkcart.text(' Quick View');
    var alinkiexccart = $('<i>').addClass('icofont-cart ml-2');
    $(alinkcart).append(alinkiexccart);
    $(product_add_to_cart).append(alinkcart);
