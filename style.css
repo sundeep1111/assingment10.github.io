@@ -1225,3 +1225,30 @@ box-shadow: 2px 11px 19px -8px rgba(0,0,0,0.75); border-radius: 10px;     border
           .owlimg{ width: 156px !important; height: 105px !important; margin: 0 auto !important;}
           #accessories_men_women .posrel{ position: relative; top:-8px;}
           .fontsz{ font-size: 16px !important;}
+          input:focus {
+            outline-width:0;
+            outline:none;
+            border: 1px solid #FFF; 
+            }
+            #increment{
+              background-color: #007bff;
+    color: #fff;
+    border-radius: 50px;
+    width: 25px;
+    height: 24px;
+    line-height: 25px;
+    position: relative;
+    top: 10px; cursor: pointer;
+            }
+            .decrement{
+              background-color: #007bff;
+    color: #fff;
+    border-radius: 50px;
+    width: 25px;
+    height: 24px;
+    line-height: 20px;
+    position: relative;
+    top: -14px;
+    right: -55px;cursor: pointer;
+            }
+            .alink{ cursor: pointer;}
