@@ -65,14 +65,14 @@
                                 <div class="search-btn"><i class="icofont-search"></i></div>
                                 <!-- Form -->
                                 <div class="search-form">
-                                    <input type="search" class="form-control" placeholder="Search">
+                                    <input type="text" placeholder="Enter something" name="search-box" id="search-box" value="" >
                                     <input type="submit" class="d-none" value="Send">
                                 </div>
                             </div>
 
                             <!-- Cart -->
                             <div class="cart-area">
-                                <div class="cart--btn"><i class="icofont-cart"></i> <span class="cart_quantity">0</span></div>
+                                <div class="cart--btn"><a href="checkout.html"><i class="icofont-cart"></i> <span class="cart_quantity">0</span></a></div>
                               </div>
 
                             <!-- Account -->
@@ -346,6 +346,17 @@
     </footer>
     <!-- Footer Area -->
 
+    <div class="modal fade" id="quickview" tabindex="-1" role="dialog" aria-labelledby="quickview" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close btn" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body">
+                   </div>
+            </div>
+        </div>
+    </div>
     <!-- jQuery (Necessary for All JavaScript Plugins) -->
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -359,6 +370,21 @@
     <script src="js/default/active.js"></script>
     <script src="js/default/homedata.js"></script>
     <script src="js/default/count.js"></script>
+<script>
+    $(document).ready(function(){
 
+/* Hamburger menu animation */
+$('.open-button').click(function(){
+  $(this).toggleClass('open');
+});
+
+ /* Menu fade/in out on mobile */
+$(".open-button").click(function(e){
+    e.preventDefault();
+    $(".mobile-menu").toggleClass('open');
+});
+
+});
+</script>
 </body>
 </html>
